@@ -1,28 +1,120 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;700;900&family=Smooch&display=swap');
 body{
     margin:0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background:   #3FCAB7;
 }
-
 
 
 
 .sign-in-form{
 
+  
     display: flex;
     flex-direction:column;
+    align-items: center;
+    margin-top:80px;
+    margin-left:500px;
+    margin-bottom:100px;
+    width:400px;
+    height: 500px;
+    padding-top:100px;
+    background: #f7608b;
+    color:white;
+    font-weight: 700;
+    box-shadow: 5px 10px 18px #888888;
+    transform: translateZ(10rem);
+
 }
+
+.para{
+    color:white;
+    font-family: 'Comforter', cursive;
+    font-size:50px;
+}
+
+.heading img,.sign-in-form img {
+    height:100px;
+    width:100px;
+}
+
+.heading{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 svg{
     height: 22px;
     margin-top:30px;
+    filter: invert(95%) sepia(0%) saturate(7495%) hue-rotate(196deg) brightness(125%) contrast(96%);
+    font-weight: 700;
 }
 
 input{
     margin-bottom: 20px;
+    outline:none;
+    border:white;
+    height:40px;
+    width:250px;
+    border-radius: 0.5rem;
 }
 
+::placeholder{
+    color:#f7608b;
+}
+
+
+#submit-btn{
+    margin-top:60px;
+    height:40px;
+    width:200px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color:white;
+    color:#f7608b;
+    font-weight:700;
+    border:none;
+    font-size: 18px;
+
+}
+
+#submit-btn:active{
+    transform:translateX(0.6rem);
+}
+
+small a{
+    color:white;
+
+}
+
+small{
+    margin-top:20px;
+}
+
+
+#noUser{
+    color:white;
+    font-size: large;
+    margin-top:5px;
+}
+
+#pizza-facts{
+    color:white;
+    border: 3px solid #f7608b;
+    border-radius: 0.5rem;
+    padding: 10px;
+    width:500px;
+    margin-left:450px;
+    margin-bottom: 100px;
+    margin-top:0;
+    transform: translateZ(10rem);
+    box-shadow: 5px 10px 18px #888888;
+    
+}
 
