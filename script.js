@@ -4,6 +4,7 @@ const password = document.querySelector(".password");
 
 const noUserPwd = document.querySelector("#noUser");
 const signUpLink = document.querySelector("#sign-up");
+const signUp = document.querySelector('#sign-up');
 
 const pizzaFacts = document.querySelector("#pizza-facts");
 pizzaFacts.innerHTML=`<h2>Fun Pizza Fact ! </h2>
@@ -31,6 +32,9 @@ submitBtn.addEventListener('click',function(e){
       password.style.border = "5px solid red";
       userName.style.border ="5px solid red";
    }
+   else{
+       location.href="#";
+   }
 
 })
 
@@ -38,6 +42,10 @@ submitBtn.addEventListener('click',function(e){
 signUpLink.addEventListener('click',function(e){
     e.preventDefault();
 
+})
+
+signUp.addEventListener('click',function(){
+    location.href="signup.html";
 })
 
 
@@ -48,6 +56,10 @@ setInterval(function(){
     
  
 },5000)
+
+
+
+
 
 
 
