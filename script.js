@@ -33,7 +33,7 @@ submitBtn.addEventListener('click',function(e){
       userName.style.border ="5px solid red";
    }
    else{
-       location.href="#";
+       location.href="menu.html";
    }
 
 })

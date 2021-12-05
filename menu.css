@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;700;900&family=Smooch&display=swap');
+
+
+body{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav-bar{
+    background-color: #f7608b;
+    height:140px;
+   
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+   color:white;
+   font-size: 20px;
+  
+
+}
+
+#nav-items ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right:40px;
+    padding-bottom: 40px;
+}
+
+#nav-items ul li{
+    margin:10px;
+   
+    
+}
+
+#nav-items ul li img{
+    height:30px;
+    filter: invert(95%) sepia(0%) saturate(7495%) hue-rotate(196deg) brightness(125%) contrast(96%);
+    
+}
+
+#navbar #nav-items{
+    margin-bottom: 40px;
+}
+
+#brand{
+    color:white;
+    font-family: 'Comforter', cursive;
+    font-size:30px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#brand img{
+    height:30px;
+}
+
+
+/* MENU SECTION */
+
+ h2{
+    color:#f7608b;
+    position:relative;
+    left:680px;
+    top:50px;
+}
